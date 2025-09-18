@@ -50,7 +50,8 @@ extra_javascript:
 nav:
   - Start Here: START_HERE.md
   - Basics:
-      - FAIR in Practice: basics/FAIR.md
+    - Reproducibility 101: basics/INDEX.md
+    - FAIR in Practice: basics/FAIR.md
   - Quick Starts:
       - Python: QUICK_START_PYTHON.md
       - R: QUICK_START_R.md
@@ -63,6 +64,7 @@ nav:
       - Workflow: git/WORKFLOW.md
       - Configuration: git/CONFIG.md
       - Advanced: git/ADVANCED.md
+      - Recipes: git/RECIPES.md
   - Tutorials:
     - Git (Slidev): tutorials/GIT_TUTORIAL.md
     - Git — Embedded Slides: tutorials/GIT_TUTORIAL_EMBED.md
