@@ -1,0 +1,4 @@
+.chip{display:inline-block;padding:.15rem .5rem;border-radius:999px;font-size:.75rem;font-weight:600;line-height:1;color:#223;background:#e9eef8;border:1px solid #d3ddf0;margin-right:.35rem}
+.chip--guide{background:#e8f5e9;border-color:#cfe9d1;color:#1b5e20}
+.chip--recipe{background:#fff3e0;border-color:#ffe0b2;color:#e65100}
+.chip--exercise{background:#e3f2fd;border-color:#bbdefb;color:#0d47a1}

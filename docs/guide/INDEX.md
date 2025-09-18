@@ -1,5 +1,7 @@
 # Guided Project — Start to Publish
 
+<span class="chip chip--guide">Guide</span>
+
 This is a step-by-step path for a new GCE project. Follow the phases in order. Each step links to short checklists and detailed references.
 
 ## Phases

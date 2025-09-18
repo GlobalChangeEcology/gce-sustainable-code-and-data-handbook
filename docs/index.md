@@ -8,66 +8,44 @@ Practical guidance for sustainable research code and FAIR, reusable data in the 
 
 <div class="grid cards" markdown>
 
--   :material-map-outline: **Guided Project**
+-   :material-compass-outline: **Start**
     
     ---
-    A step-by-step path from blank repo to published, citable research outputs.
+    Orientation, role‑based paths, and a simple decision flow.
     
-    [:octicons-arrow-right-24: Start the Guide](guide/INDEX.md)
+    [:octicons-arrow-right-24: Start Here](START_HERE.md)
+    · [:octicons-organization-24: By Role](roles/INDEX.md)
+    · [:octicons-git-merge-24: Decision Guide](DECISION_GUIDE.md)
 
--   :material-compass-outline: **Start Here**
+-   :material-map-outline: **Course**
     
     ---
-    Quick orientation and how to navigate this site.
+    Step‑by‑step from blank repo to citable outputs.
     
-    [:octicons-arrow-right-24: Open Start Here](START_HERE.md)
+    [:octicons-arrow-right-24: Open the Course](guide/INDEX.md)
 
--   :material-flowchart: **Decision Guide**
-    
-    ---
-    Choose tools, pipelines, and repositories with a simple flow.
-    
-    [:octicons-arrow-right-24: Open Decision Guide](DECISION_GUIDE.md)
-
--   :material-flask-outline: **Examples**
+-   :material-run: **Exercises**
     
     ---
-    Minimal project with tiny CSV and Python/R scripts.
+    Quick starts, tutorials, and a minimal project.
     
-    [:octicons-arrow-right-24: See Example](examples/minimal-project/README.md)
+    [:octicons-arrow-right-24: Quick Starts](QUICK_START_PYTHON.md)
+    · [:octicons-mortar-board-24: Tutorials](tutorials/GIT_TUTORIAL.md)
+    · [:octicons-beaker-24: Example Project](examples/minimal-project/README.md)
 
-</div>
-
-<div class="grid cards" markdown>
-
--   :material-school-outline: **Tutorials**
+-   :material-hammer-wrench: **Recipes**
     
     ---
-    Practical, hands-on learning material, starting with Git.
+    Copy‑paste tasks to get things done quickly.
     
-    [:octicons-arrow-right-24: Open Git Tutorial](tutorials/GIT_TUTORIAL.md)
+    [:octicons-arrow-right-24: Open Recipes](recipes/INDEX.md)
 
-</div>
-
-<div class="grid cards" markdown>
-
--   :material-check-decagram-outline: **Basics: FAIR**
+-   :material-book-open-variant: **Reference**
     
     ---
-    Practical checklist to make your work Findable, Accessible, Interoperable, Reusable.
+    FAIR basics, data management, discovery, Git, and more.
     
-    [:octicons-arrow-right-24: Open FAIR Basics](basics/FAIR.md)
-
-</div>
-
-<div class="grid cards" markdown>
-
--   :material-lifebuoy: **Basics: Reproducibility 101**
-    
-    ---
-    Environments, metadata, licensing — the essentials to get right.
-    
-    [:octicons-arrow-right-24: Open Repro 101](basics/INDEX.md)
+    [:octicons-arrow-right-24: Start with Repro 101](basics/INDEX.md)
 
 </div>
 
@@ -79,9 +57,10 @@ If you use this handbook, please cite it.
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.TBD.svg)](https://doi.org/10.5281/zenodo.TBD)
 
 ## Quick paths
-- Guided Project → do it step-by-step
-- Tutorials → hands-on practice (Git, Conda, Snakemake, Actions)
-- Handbook → detailed reference chapters
+- Course → do it step-by-step
+- Exercises → hands-on practice (Git, Conda, Snakemake, Actions)
+- Recipes → do it now with copy‑paste
+- Reference → deeper background
 
 ## Local preview
 ```bash

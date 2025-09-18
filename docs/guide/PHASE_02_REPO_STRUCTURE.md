@@ -1,16 +1,21 @@
 # 2) Create Repo & Structure
 
-Outcomes: a GitHub repo with a clear, standard layout.
+<span class="chip chip--guide">Guide</span>
 
-Checklist
-- [ ] Create GitHub repo; protect `main`
-- [ ] Scaffold folders (01_RAWDATA → 06_PUBLICATION)
-- [ ] Add README, LICENSE(s), CODE_OF_CONDUCT, CITATION.cff
-- [ ] Add `.gitignore` and `.gitattributes` (LFS if needed)
+Outcomes
+- A GitHub repo with a clear, standard layout.
 
 Do it
-- Use the Minimal Project example as a template
-- Add Git Tutorial (Slidev) to onboard collaborators
+- Create GitHub repo; protect `main`
+- Scaffold folders (01_RAWDATA → 06_PUBLICATION)
+- Add README, LICENSE(s), CODE_OF_CONDUCT, CITATION.cff
+- Add `.gitignore` and `.gitattributes` (LFS if needed)
+
+Checklist
+- [ ] Repo created and protected
+- [ ] Folders scaffolded
+- [ ] Governance and citation files added
+- [ ] Ignore/LFS configured
 
 Reference
 - Project Setup

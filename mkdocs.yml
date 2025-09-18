@@ -26,6 +26,7 @@ theme:
 
 plugins:
   - search
+  - tags
 
 markdown_extensions:
   - admonition
@@ -46,11 +47,18 @@ markdown_extensions:
 extra_javascript:
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
   - js/mermaid-init.js
+extra_css:
+  - css/chips.css
 
 nav:
-  - Start Here: START_HERE.md
-  - Guided Project:
+  - Start:
+    - Start Here: START_HERE.md
+    - Pathways by Role: roles/INDEX.md
+    - Decision Guide: DECISION_GUIDE.md
+    - Onboarding (60 min): start/ONBOARDING_60_MIN.md
+  - Course:
     - Overview: guide/INDEX.md
+    - Phase Checklists: guide/CHECKLISTS.md
     - 1) Plan & Setup: guide/PHASE_01_PLAN_SETUP.md
     - 2) Repo & Structure: guide/PHASE_02_REPO_STRUCTURE.md
     - 3) Capture Metadata: guide/PHASE_03_METADATA.md
@@ -60,47 +68,51 @@ nav:
     - 7) Analyze & Document: guide/PHASE_07_ANALYZE.md
     - 8) Automate Pipelines: guide/PHASE_08_PIPELINES.md
     - 9) Publish & Cite: guide/PHASE_09_PUBLISH.md
+    - Publish & Make Findable: guide/PUBLISH_AND_DISCOVER.md
     - 10) Archive & Hand-off: guide/PHASE_10_ARCHIVE.md
-  - Basics:
-    - Reproducibility 101: basics/INDEX.md
-    - FAIR in Practice: basics/FAIR.md
-    - Ethics & Consent: basics/ETHICS_AND_CONSENT.md
-  - Quick Starts:
+  - Exercises:
+    - Quick Starts:
       - Python: QUICK_START_PYTHON.md
       - R: QUICK_START_R.md
-  - Glossary: GLOSSARY.md
-  - FAQ: FAQ.md
-  - Inspirations: INSPIRATION.md
-  - Tools: TOOLS.md
-  - Data Management:
-    - Data Versioning: data-management/DATA_VERSIONING.md
-    - Archiving & Fixity: data-management/ARCHIVING_AND_FIXITY.md
-    - Choosing a Repository: data-management/REPOSITORIES_MATRIX.md
-    - Deposit & Validation Recipes: data-management/DEPOSIT_AND_VALIDATION_RECIPES.md
-  - Domain Guides:
-    - Geospatial: domain/GEOSPATIAL.md
+    - Tutorials:
+      - Git (Slidev): tutorials/GIT_TUTORIAL.md
+      - Git — Embedded Slides: tutorials/GIT_TUTORIAL_EMBED.md
+      - Git — Printable Summary: tutorials/GIT_TUTORIAL_SUMMARY.md
+      - Conda Environments: tutorials/CONDA_TUTORIAL.md
+      - Snakemake Basics: tutorials/SNAKEMAKE_TUTORIAL.md
+      - GitHub Actions Basics: tutorials/GHA_TUTORIAL.md
+    - Biology:
+      - DwC → GBIF via IPT: exercises/BIO_DWC_GBIF.md
+    - Examples:
+      - Minimal Project: examples/minimal-project/README.md
+  - Recipes:
+    - Overview: recipes/INDEX.md
+    - Deposit & Validation: data-management/DEPOSIT_AND_VALIDATION_RECIPES.md
+    - Tools:
+      - Dataset Docs Generator: tools/generator.md
+  - Domains:
+    - Overview: domain/INDEX.md
     - Biosciences: domain/BIOSCIENCES.md
-  - Discovery:
-    - Dataset JSON-LD: discovery/DATASET_JSONLD.md
-  - Git & GitHub:
-      - Overview: git/INDEX.md
-      - Team Guidelines: git/GUIDELINES.md
-      - Concepts: git/CONCEPTS.md
-      - Workflow: git/WORKFLOW.md
-      - Configuration: git/CONFIG.md
-      - Advanced: git/ADVANCED.md
-      - Recipes: git/RECIPES.md
-  - Tutorials:
-    - Git (Slidev): tutorials/GIT_TUTORIAL.md
-    - Git — Embedded Slides: tutorials/GIT_TUTORIAL_EMBED.md
-    - Git — Printable Summary: tutorials/GIT_TUTORIAL_SUMMARY.md
-    - Conda Environments: tutorials/CONDA_TUTORIAL.md
-    - Snakemake Basics: tutorials/SNAKEMAKE_TUTORIAL.md
-    - GitHub Actions Basics: tutorials/GHA_TUTORIAL.md
-  - Releases: RELEASES.md
-  - Decision Guide: DECISION_GUIDE.md
-  - Diagrams: DIAGRAMS.md
-  - Handbook:
+    - Geospatial: domain/GEOSPATIAL.md
+  - Reference:
+    - Basics:
+      - Reproducibility 101: basics/INDEX.md
+      - FAIR in Practice: basics/FAIR.md
+      - Ethics & Consent: basics/ETHICS_AND_CONSENT.md
+    - Data Management:
+      - Overview: data-management/INDEX.md
+      - Data Versioning: data-management/DATA_VERSIONING.md
+      - Archiving & Fixity: data-management/ARCHIVING_AND_FIXITY.md
+      - Choosing a Repository: data-management/REPOSITORIES_MATRIX.md
+    - Findability & Discovery (Beginner): reference/FINDABILITY_DISCOVERY.md
+    - Advanced:
+      - Dataset JSON-LD: discovery/DATASET_JSONLD.md
+      - Advanced Git: git/ADVANCED.md
+      - Git Recipes: git/RECIPES.md
+    - Glossary: GLOSSARY.md
+    - FAQ: FAQ.md
+    - Tools Overview: TOOLS.md
+    - Handbook:
       - Policy & Principles: manual/01_POLICY_AND_PRINCIPLES.md
       - Project Setup: manual/02_PROJECT_SETUP.md
       - Metadata & Documentation: manual/03_METADATA_AND_DOCUMENTATION.md
@@ -112,8 +124,8 @@ nav:
       - Publishing & Reuse: manual/09_PUBLISHING_AND_REUSE.md
       - Checklists & Templates: manual/10_CHECKLISTS_AND_TEMPLATES.md
       - Software Practices: manual/11_SOFTWARE_PRACTICES.md
-  - Implementation Guide: IMPLEMENTATION_GUIDE.md
-  - Examples:
-      - Minimal Project: examples/minimal-project/README.md
-  - Tools (How-to):
-      - Dataset Docs Generator: tools/generator.md
+    - Implementation Guide: IMPLEMENTATION_GUIDE.md
+  - About:
+    - Releases: RELEASES.md
+    - Inspirations: INSPIRATION.md
+    - Diagrams: DIAGRAMS.md

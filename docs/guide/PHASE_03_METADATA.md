@@ -1,15 +1,19 @@
 # 3) Capture Metadata
 
-Outcomes: dataset README, data dictionary, schema.
+<span class="chip chip--guide">Guide</span>
 
-Checklist
-- [ ] Run the dataset docs generator for each dataset
-- [ ] Write `README.md` and `data_dictionary.csv`
-- [ ] Add a Frictionless Table Schema and validate
+Outcomes
+- Dataset README, data dictionary, schema.
 
 Do it
-- `python tools/generate_dataset_docs.py ./02_METADATA/my-dataset`
-- `frictionless validate table_schema.json`
+- Run the dataset docs generator for each dataset
+- Write `README.md` and `data_dictionary.csv`
+- Add a Frictionless Table Schema and validate
+
+Checklist
+- [ ] Generator run
+- [ ] README and data dictionary written
+- [ ] Table schema added and validated
 
 Reference
 - Metadata & Documentation
