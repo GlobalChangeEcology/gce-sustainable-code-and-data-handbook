@@ -6,11 +6,13 @@ This page highlights the core tools and how we expect to use them in GCE project
 - Git + GitHub: versioning, reviews, issues, releases. Use branches + PRs; protect `main`.
 - Git LFS: for large binaries (add patterns in `.gitattributes`).
 - Git Tutorial: Hands-on Slidev deck — see Tutorials → Git.
+- Git & GitHub Guide: See dedicated section for concepts, workflow, and config.
 
 ## Data management
 - Frictionless: describe tabular datasets (Table Schema, Data Package); validate with `frictionless validate`.
 - Pandera (Python) / pointblank (R): dataframe validation in pipelines.
 - RDMO (optional): capture DMPs and project planning.
+- FAIR basics: See Basics → FAIR for practical checklists.
 
 ## Environments
 - Python: Conda or Poetry; lock dependencies; pin major versions. Example: `environment.yml` or `pyproject.toml`.

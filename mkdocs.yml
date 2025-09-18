@@ -49,12 +49,20 @@ extra_javascript:
 
 nav:
   - Start Here: START_HERE.md
+  - Basics:
+      - FAIR in Practice: basics/FAIR.md
   - Quick Starts:
       - Python: QUICK_START_PYTHON.md
       - R: QUICK_START_R.md
   - Glossary: GLOSSARY.md
   - FAQ: FAQ.md
   - Tools: TOOLS.md
+  - Git & GitHub:
+      - Overview: git/INDEX.md
+      - Concepts: git/CONCEPTS.md
+      - Workflow: git/WORKFLOW.md
+      - Configuration: git/CONFIG.md
+      - Advanced: git/ADVANCED.md
   - Tutorials:
     - Git (Slidev): tutorials/GIT_TUTORIAL.md
     - Git — Embedded Slides: tutorials/GIT_TUTORIAL_EMBED.md

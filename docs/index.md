@@ -49,6 +49,17 @@ Practical guidance for sustainable research code and FAIR, reusable data in the 
 
 </div>
 
+<div class="grid cards" markdown>
+
+-   :material-check-decagram-outline: **Basics: FAIR**
+    
+    ---
+    Practical checklist to make your work Findable, Accessible, Interoperable, Reusable.
+    
+    [:octicons-arrow-right-24: Open FAIR Basics](basics/FAIR.md)
+
+</div>
+
 ## Citation
 If you use this handbook, please cite it.
 
