@@ -56,7 +56,12 @@ nav:
   - FAQ: FAQ.md
   - Tools: TOOLS.md
   - Tutorials:
-      - Git (Slidev): tutorials/GIT_TUTORIAL.md
+    - Git (Slidev): tutorials/GIT_TUTORIAL.md
+    - Git — Embedded Slides: tutorials/GIT_TUTORIAL_EMBED.md
+    - Git — Printable Summary: tutorials/GIT_TUTORIAL_SUMMARY.md
+    - Conda Environments (coming soon): tutorials/CONDA_TUTORIAL.md
+    - Snakemake Basics (coming soon): tutorials/SNAKEMAKE_TUTORIAL.md
+    - GitHub Actions Basics (coming soon): tutorials/GHA_TUTORIAL.md
   - Releases: RELEASES.md
   - Decision Guide: DECISION_GUIDE.md
   - Diagrams: DIAGRAMS.md

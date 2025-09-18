@@ -5,6 +5,10 @@ This Git tutorial is built with Slidev and hosted in the GlobalChangeEcology org
 - Repository: https://github.com/GlobalChangeEcology/git_tutorial
 - Live slides (GitHub Pages): https://globalchangeecology.github.io/git_tutorial/
 
+Quick links:
+- Embedded version: [Git Tutorial — Embedded Slides](GIT_TUTORIAL_EMBED.md)
+- Printable summary: [Git Tutorial — Printable Summary](GIT_TUTORIAL_SUMMARY.md)
+
 ## What you’ll learn
 - Core Git concepts: commits, branches, remotes
 - Typical workflows: feature branches, PRs, reviews
