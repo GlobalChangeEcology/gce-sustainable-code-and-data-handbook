@@ -1,0 +1,22 @@
+rule all:
+    input:
+        # Example targets
+        "results/summary.csv"
+
+rule clean_data:
+    input:
+        raw="data/raw/input.csv"
+    output:
+        clean="data/clean/input.clean.csv"
+    conda:
+        "environment.yml"
+    shell:
+        "python scripts/clean.py {input.raw} {output.clean}"
+
+rule summarize:
+    input:
+        "data/clean/input.clean.csv"
+    output:
+        "results/summary.csv"
+    shell:
+        "python scripts/summarize.py {input} {output}"
