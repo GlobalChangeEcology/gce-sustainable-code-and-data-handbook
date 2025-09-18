@@ -2,6 +2,7 @@ site_name: GCE Sustainable Code & Data Handbook
 site_url: https://globalchangeecology.github.io/gce-sustainable-code-and-data-handbook/
 repo_url: https://github.com/GlobalChangeEcology/gce-sustainable-code-and-data-handbook
 repo_name: GlobalChangeEcology/gce-sustainable-code-and-data-handbook
+edit_uri: edit/main/docs/
 docs_dir: docs
 
 theme:
@@ -17,6 +18,7 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.tabs
     - navigation.footer
     - content.code.copy
     - search.highlight
