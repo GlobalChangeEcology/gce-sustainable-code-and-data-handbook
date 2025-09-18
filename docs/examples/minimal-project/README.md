@@ -23,3 +23,28 @@ Project_Acronym_Year/
 - How to separate raw and clean data
 - Where to put scripts and results
 - How to document with README and a data dictionary
+
+# Minimal Example Dataset
+
+This example demonstrates a tiny, well-documented dataset with a corresponding data dictionary and simple summary scripts.
+
+## Dataset
+- Path: `docs/examples/minimal-project/data/example.csv`
+- Description: four rows with `id` and `value`.
+
+## Documentation files
+- `README.md` (this file): describes purpose, structure, and provenance
+- `data_dictionary.csv`: column-level metadata (name, type, description, allowed)
+
+## Provenance
+- Created for demonstration purposes on 2025-09-18
+- Owner: GCE Handbook Team
+- License: CC BY 4.0
+
+## How to use
+- Python: run `python summarize.py` (requires `pandas`)
+- R: run `Rscript summarize.R` (requires `readr`, `dplyr`)
+
+## Columns
+- `id` (integer): row identifier
+- `value` (float): numeric value to summarize
