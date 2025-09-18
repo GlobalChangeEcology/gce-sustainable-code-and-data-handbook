@@ -35,12 +35,30 @@ git bisect good <known-good-tag-or-commit>
 # run your test at each step, mark good/bad
 ```
 
+### Automate bisect with a test command
+```bash
+git bisect start
+git bisect bad HEAD
+git bisect good <known-good>
+git bisect run bash -lc 'pytest -q || exit 1'
+# or: git bisect run bash -lc "Rscript tests/smoke.R"
+git bisect reset
+```
+
 ## Submodules (add and update)
 ```bash
 # add
 git submodule add https://github.com/org/dep.git external/dep
 # init and update
 git submodule update --init --recursive
+```
+
+## Worktrees (multiple branches checked out at once)
+```bash
+# create a worktree for a feature branch in a sibling folder
+git worktree add -b feature/x ../proj-feature-x origin/main
+# later, remove the worktree when done
+git worktree remove ../proj-feature-x
 ```
 
 ## Tagging and releases

@@ -60,6 +60,17 @@ Practical guidance for sustainable research code and FAIR, reusable data in the 
 
 </div>
 
+<div class="grid cards" markdown>
+
+-   :material-lifebuoy: **Basics: Reproducibility 101**
+    
+    ---
+    Environments, metadata, licensing — the essentials to get right.
+    
+    [:octicons-arrow-right-24: Open Repro 101](basics/INDEX.md)
+
+</div>
+
 ## Citation
 If you use this handbook, please cite it.
 

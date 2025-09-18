@@ -60,6 +60,7 @@ nav:
   - Tools: TOOLS.md
   - Git & GitHub:
       - Overview: git/INDEX.md
+      - Team Guidelines: git/GUIDELINES.md
       - Concepts: git/CONCEPTS.md
       - Workflow: git/WORKFLOW.md
       - Configuration: git/CONFIG.md
