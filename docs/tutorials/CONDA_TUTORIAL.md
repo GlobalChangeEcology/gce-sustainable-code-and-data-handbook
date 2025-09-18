@@ -38,3 +38,21 @@ nextflow run main.nf -with-conda environment.yml
 - Keep `environment.yml` at repo root or under `envs/`
 - Prefer channels: `conda-forge` first
 - Pin major versions; avoid over-pinning micro versions
+
+## Exercises
+1) Create an env with Python 3.11 and pandas; export `environment.yml`.
+2) Recreate the env from `environment.yml` on another machine.
+3) Add Snakemake to the env and run a tiny rule that prints versions.
+
+## Checklist
+- [ ] `environment.yml` committed
+- [ ] Channel order includes conda-forge
+- [ ] Instructions to create/activate env in README
+
+## Diagram: flow
+```mermaid
+flowchart LR
+	Def[Define env] --> Exp[Export YAML]
+	Exp --> Share[Commit to repo]
+	Share --> Recreate[Recreate elsewhere]
+```

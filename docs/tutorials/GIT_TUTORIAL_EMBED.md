@@ -1,6 +1,9 @@
 # Git Tutorial — Embedded Slides
 
-Below is the embedded Slidev presentation. If it does not load, use the direct link: https://globalchangeecology.github.io/git_tutorial/
+> Note
+> Some organizations block embedded iframes. If you see a blank area below, open the slides directly.
+>
+> [Open slides in a new tab](https://globalchangeecology.github.io/git_tutorial/){ .md-button .md-button--primary }
 
 <div style="position: relative; padding-bottom: 60vh; height: 0; overflow: hidden;">
   <iframe

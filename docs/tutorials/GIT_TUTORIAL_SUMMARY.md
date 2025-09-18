@@ -71,3 +71,25 @@ For the full, interactive slides, see the embedded version or open: https://glob
 Print this page
 
 <button onclick="window.print()" style="padding:6px 10px;border:1px solid var(--md-default-fg-color--lightest);border-radius:4px;background:var(--md-primary-fg-color);color:white;cursor:pointer;">Print</button>
+
+## Quick exercises
+1) Create a new repo, add a README, and push to GitHub.
+2) Open a feature branch, commit a small change, open a PR.
+3) Resolve a simulated conflict: edit the same line on `main` and your branch.
+
+## Checklist
+- [ ] Git configured (name, email)
+- [ ] Default branch set to `main`
+- [ ] `.gitignore` appropriate for the project
+- [ ] Branch protection on `main`
+- [ ] Releases use tags and changelog
+
+## Diagram: basic workflow
+
+```mermaid
+flowchart LR
+	W[Worktree] -->|git add| I[Index]
+	I -->|git commit| C[Commits]
+	C -->|git push| R[Remote]
+	R -->|PR & review| M[main]
+```
