@@ -2,10 +2,16 @@ site_name: GCE Sustainable Code & Data Handbook
 site_url: https://globalchangeecology.github.io/gce-sustainable-code-and-data-handbook/
 repo_url: https://github.com/GlobalChangeEcology/gce-sustainable-code-and-data-handbook
 repo_name: GlobalChangeEcology/gce-sustainable-code-and-data-handbook
-docs_dir: .
+docs_dir: docs
 
 theme:
   name: material
+  logo: images/logo_only.jpg
+  favicon: images/favicon.png
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep orange
   features:
     - navigation.instant
     - navigation.sections
@@ -27,11 +33,26 @@ markdown_extensions:
       permalink: true
       toc_depth: 3
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight
 
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+  - js/mermaid-init.js
+
 nav:
-  - Home: index.md
+  - Start Here: START_HERE.md
+  - Quick Starts:
+      - Python: QUICK_START_PYTHON.md
+      - R: QUICK_START_R.md
+  - Glossary: GLOSSARY.md
+  - FAQ: FAQ.md
+  - Diagrams: DIAGRAMS.md
+  - Decision Guide: DECISION_GUIDE.md
   - Handbook:
       - Policy & Principles: manual/01_POLICY_AND_PRINCIPLES.md
       - Project Setup: manual/02_PROJECT_SETUP.md
@@ -45,3 +66,5 @@ nav:
       - Checklists & Templates: manual/10_CHECKLISTS_AND_TEMPLATES.md
       - Software Practices: manual/11_SOFTWARE_PRACTICES.md
   - Implementation Guide: IMPLEMENTATION_GUIDE.md
+  - Examples:
+      - Minimal Project: examples/minimal-project/README.md

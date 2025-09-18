@@ -21,7 +21,19 @@ renv/library/
 *.log
 *.tmp
 *.bak
+site/
+docs/site/
 
 # Data (examples only — do not commit real data)
 /data/
 results/
+
+# SSH keys (never commit)
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*.pem
+*.key
+github
+github.pub
