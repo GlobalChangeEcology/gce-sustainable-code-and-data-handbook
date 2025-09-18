@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: If you use this handbook, please cite it.
+title: GCE Sustainable Code & Data Handbook
+authors:
+  - family-names: Hill
+    given-names: Steven
+    email: steven.hill@uni-wuerzburg.de
+  - name: Global Change Ecology (GCE) contributors
+version: 1.0.0
+date-released: 2025-09-18
+repository-code: https://github.com/GlobalChangeEcology/gce-sustainable-code-and-data-handbook
+url: https://globalchangeecology.github.io/gce-sustainable-code-and-data-handbook/
+abstract: Practical guidance for sustainable research code and FAIR, reusable data in the GCE community.

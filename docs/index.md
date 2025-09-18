@@ -38,6 +38,13 @@ Practical guidance for sustainable research code and FAIR, reusable data in the 
 
 </div>
 
+## Citation
+If you use this handbook, please cite it.
+
+[View CITATION.cff](https://github.com/GlobalChangeEcology/gce-sustainable-code-and-data-handbook/blob/main/CITATION.cff)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.TBD.svg)](https://doi.org/10.5281/zenodo.TBD)
+
 ## Start here
 - Policy & Principles → goals, scope, roles
 - Project Setup → folders, naming, onboarding checklist
