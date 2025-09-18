@@ -1,0 +1,47 @@
+site_name: GCE Sustainable Code & Data Handbook
+site_url: https://globalchangeecology.github.io/gce-sustainable-code-and-data-handbook/
+repo_url: https://github.com/GlobalChangeEcology/gce-sustainable-code-and-data-handbook
+repo_name: GlobalChangeEcology/gce-sustainable-code-and-data-handbook
+docs_dir: .
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - attr_list
+  - def_list
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+
+nav:
+  - Home: index.md
+  - Handbook:
+      - Policy & Principles: manual/01_POLICY_AND_PRINCIPLES.md
+      - Project Setup: manual/02_PROJECT_SETUP.md
+      - Metadata & Documentation: manual/03_METADATA_AND_DOCUMENTATION.md
+      - Data Lifecycle: manual/04_DATA_LIFECYCLE.md
+      - File & Version Control: manual/05_FILE_AND_VERSION_CONTROL.md
+      - Data Quality: manual/06_DATA_QUALITY.md
+      - Sensitive Data: manual/07_SENSITIVE_DATA.md
+      - Tools & Platforms: manual/08_TOOLS_AND_PLATFORMS.md
+      - Publishing & Reuse: manual/09_PUBLISHING_AND_REUSE.md
+      - Checklists & Templates: manual/10_CHECKLISTS_AND_TEMPLATES.md
+      - Software Practices: manual/11_SOFTWARE_PRACTICES.md
+  - Implementation Guide: IMPLEMENTATION_GUIDE.md
