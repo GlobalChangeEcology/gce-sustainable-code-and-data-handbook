@@ -54,6 +54,7 @@ If you use this handbook, please cite it.
 
 ## Local preview
 ```bash
-python3 -m pip install --upgrade mkdocs mkdocs-material
+python3 -m pip install --upgrade pip
+pip install -r requirements.txt
 mkdocs serve
 ```
