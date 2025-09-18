@@ -53,6 +53,19 @@ conda activate gce-minimal-example
 snakemake -c1 --use-conda
 ```
 
+- Nextflow (with conda):
+```bash
+# from docs/examples/minimal-project
+conda activate gce-minimal-example  # optional; Nextflow will handle env if configured
+nextflow run main.nf -with-conda environment.yml
+```
+
+- Nextflow (with Docker):
+```bash
+# requires Docker running, and a simple container with python+pandas
+nextflow run main.nf -with-docker python:3.11-slim
+```
+
 ## Columns
 - `id` (integer): row identifier
 - `value` (float): numeric value to summarize
