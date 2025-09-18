@@ -49,21 +49,37 @@ extra_javascript:
 
 nav:
   - Start Here: START_HERE.md
+  - Guided Project:
+    - Overview: guide/INDEX.md
+    - 1) Plan & Setup: guide/PHASE_01_PLAN_SETUP.md
+    - 2) Repo & Structure: guide/PHASE_02_REPO_STRUCTURE.md
+    - 3) Capture Metadata: guide/PHASE_03_METADATA.md
+    - 4) Data & Versions: guide/PHASE_04_DATA_VERSIONING.md
+    - 5) Environments: guide/PHASE_05_ENVIRONMENTS.md
+    - 6) Validate & Clean: guide/PHASE_06_QUALITY.md
+    - 7) Analyze & Document: guide/PHASE_07_ANALYZE.md
+    - 8) Automate Pipelines: guide/PHASE_08_PIPELINES.md
+    - 9) Publish & Cite: guide/PHASE_09_PUBLISH.md
+    - 10) Archive & Hand-off: guide/PHASE_10_ARCHIVE.md
   - Basics:
     - Reproducibility 101: basics/INDEX.md
     - FAIR in Practice: basics/FAIR.md
+    - Ethics & Consent: basics/ETHICS_AND_CONSENT.md
   - Quick Starts:
       - Python: QUICK_START_PYTHON.md
       - R: QUICK_START_R.md
   - Glossary: GLOSSARY.md
   - FAQ: FAQ.md
+  - Inspirations: INSPIRATION.md
   - Tools: TOOLS.md
   - Data Management:
     - Data Versioning: data-management/DATA_VERSIONING.md
     - Archiving & Fixity: data-management/ARCHIVING_AND_FIXITY.md
     - Choosing a Repository: data-management/REPOSITORIES_MATRIX.md
+    - Deposit & Validation Recipes: data-management/DEPOSIT_AND_VALIDATION_RECIPES.md
   - Domain Guides:
     - Geospatial: domain/GEOSPATIAL.md
+    - Biosciences: domain/BIOSCIENCES.md
   - Discovery:
     - Dataset JSON-LD: discovery/DATASET_JSONLD.md
   - Git & GitHub:

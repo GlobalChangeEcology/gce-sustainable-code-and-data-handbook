@@ -8,26 +8,26 @@ Practical guidance for sustainable research code and FAIR, reusable data in the 
 
 <div class="grid cards" markdown>
 
+-   :material-map-outline: **Guided Project**
+    
+    ---
+    A step-by-step path from blank repo to published, citable research outputs.
+    
+    [:octicons-arrow-right-24: Start the Guide](guide/INDEX.md)
+
 -   :material-compass-outline: **Start Here**
     
     ---
-    Quick orientation for newcomers to the handbook.
+    Quick orientation and how to navigate this site.
     
     [:octicons-arrow-right-24: Open Start Here](START_HERE.md)
 
 -   :material-flowchart: **Decision Guide**
     
     ---
-    Flowchart to choose tools, pipelines, and repositories.
+    Choose tools, pipelines, and repositories with a simple flow.
     
     [:octicons-arrow-right-24: Open Decision Guide](DECISION_GUIDE.md)
-
--   :material-notebook-edit: **Handbook**
-    
-    ---
-    Full chapters covering policy, metadata, quality, publishing, and more.
-    
-    [:octicons-arrow-right-24: Browse Handbook](manual/01_POLICY_AND_PRINCIPLES.md)
 
 -   :material-flask-outline: **Examples**
     
@@ -78,12 +78,10 @@ If you use this handbook, please cite it.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.TBD.svg)](https://doi.org/10.5281/zenodo.TBD)
 
-## Start here
-- Policy & Principles → goals, scope, roles
-- Project Setup → folders, naming, onboarding checklist
-- Software Practices → version control, tests, docs, environments
-- Data Lifecycle → collection → cleaning → analysis → publication
-- Checklists & Templates → ready-to-use templates
+## Quick paths
+- Guided Project → do it step-by-step
+- Tutorials → hands-on practice (Git, Conda, Snakemake, Actions)
+- Handbook → detailed reference chapters
 
 ## Local preview
 ```bash
