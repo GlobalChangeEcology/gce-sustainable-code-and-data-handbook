@@ -65,3 +65,9 @@ git config --global init.defaultBranch main
 ```
 
 For the full, interactive slides, see the embedded version or open: https://globalchangeecology.github.io/git_tutorial/
+
+---
+
+Print this page
+
+<button onclick="window.print()" style="padding:6px 10px;border:1px solid var(--md-default-fg-color--lightest);border-radius:4px;background:var(--md-primary-fg-color);color:white;cursor:pointer;">Print</button>
