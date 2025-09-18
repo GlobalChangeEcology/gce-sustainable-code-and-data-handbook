@@ -58,6 +58,14 @@ nav:
   - Glossary: GLOSSARY.md
   - FAQ: FAQ.md
   - Tools: TOOLS.md
+  - Data Management:
+    - Data Versioning: data-management/DATA_VERSIONING.md
+    - Archiving & Fixity: data-management/ARCHIVING_AND_FIXITY.md
+    - Choosing a Repository: data-management/REPOSITORIES_MATRIX.md
+  - Domain Guides:
+    - Geospatial: domain/GEOSPATIAL.md
+  - Discovery:
+    - Dataset JSON-LD: discovery/DATASET_JSONLD.md
   - Git & GitHub:
       - Overview: git/INDEX.md
       - Team Guidelines: git/GUIDELINES.md

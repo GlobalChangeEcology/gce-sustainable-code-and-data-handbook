@@ -12,6 +12,7 @@ This page highlights the core tools and how we expect to use them in GCE project
 - Frictionless: describe tabular datasets (Table Schema, Data Package); validate with `frictionless validate`.
 - Pandera (Python) / pointblank (R): dataframe validation in pipelines.
 - RDMO (optional): capture DMPs and project planning.
+- Data versioning at scale: see Data Management → Data Versioning (DVC/DataLad)
 - FAIR basics: See Basics → FAIR for practical checklists.
 
 ## Environments
@@ -22,6 +23,7 @@ This page highlights the core tools and how we expect to use them in GCE project
 - Snakemake: local/HPC-friendly, rule-based pipelines.
 - Nextflow: scalable pipelines with containers and profiles.
 - Containers: Docker/Podman for portability; bind data as volumes.
+- Geospatial data: see Domain Guides → Geospatial (COG/STAC/Zarr).
 
 ## Notebooks & docs
 - Jupyter/Quarto: literate analysis. Export results to CSV/PNG for reuse.
