@@ -54,8 +54,9 @@ nav:
       - R: QUICK_START_R.md
   - Glossary: GLOSSARY.md
   - FAQ: FAQ.md
-  - Diagrams: DIAGRAMS.md
+  - Tools: TOOLS.md
   - Decision Guide: DECISION_GUIDE.md
+  - Diagrams: DIAGRAMS.md
   - Handbook:
       - Policy & Principles: manual/01_POLICY_AND_PRINCIPLES.md
       - Project Setup: manual/02_PROJECT_SETUP.md
@@ -71,3 +72,5 @@ nav:
   - Implementation Guide: IMPLEMENTATION_GUIDE.md
   - Examples:
       - Minimal Project: examples/minimal-project/README.md
+  - Tools (How-to):
+      - Dataset Docs Generator: tools/generator.md
