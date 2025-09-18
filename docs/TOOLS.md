@@ -5,6 +5,7 @@ This page highlights the core tools and how we expect to use them in GCE project
 ## Source control & collaboration
 - Git + GitHub: versioning, reviews, issues, releases. Use branches + PRs; protect `main`.
 - Git LFS: for large binaries (add patterns in `.gitattributes`).
+- Git Tutorial: Hands-on Slidev deck — see Tutorials → Git.
 
 ## Data management
 - Frictionless: describe tabular datasets (Table Schema, Data Package); validate with `frictionless validate`.

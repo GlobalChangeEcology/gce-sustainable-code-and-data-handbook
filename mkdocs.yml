@@ -55,6 +55,8 @@ nav:
   - Glossary: GLOSSARY.md
   - FAQ: FAQ.md
   - Tools: TOOLS.md
+  - Tutorials:
+      - Git (Slidev): tutorials/GIT_TUTORIAL.md
   - Releases: RELEASES.md
   - Decision Guide: DECISION_GUIDE.md
   - Diagrams: DIAGRAMS.md

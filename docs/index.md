@@ -38,6 +38,17 @@ Practical guidance for sustainable research code and FAIR, reusable data in the 
 
 </div>
 
+<div class="grid cards" markdown>
+
+-   :material-school-outline: **Tutorials**
+    
+    ---
+    Practical, hands-on learning material, starting with Git.
+    
+    [:octicons-arrow-right-24: Open Git Tutorial](tutorials/GIT_TUTORIAL.md)
+
+</div>
+
 ## Citation
 If you use this handbook, please cite it.
 
