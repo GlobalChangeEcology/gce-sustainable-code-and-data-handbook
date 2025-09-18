@@ -1,0 +1,13 @@
+{
+  "name": "gce-minimal-example",
+  "title": "GCE Minimal Example Dataset",
+  "licenses": [
+    {"name": "CC-BY-4.0", "title": "Creative Commons Attribution 4.0", "path": "https://creativecommons.org/licenses/by/4.0/"}
+  ],
+  "resources": [
+    {
+      "path": "data/example.csv",
+      "schema": "table_schema.json"
+    }
+  ]
+}

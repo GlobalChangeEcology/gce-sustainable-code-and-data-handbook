@@ -44,6 +44,14 @@ This example demonstrates a tiny, well-documented dataset with a corresponding d
 ## How to use
 - Python: run `python summarize.py` (requires `pandas`)
 - R: run `Rscript summarize.R` (requires `readr`, `dplyr`)
+- Snakemake: create the conda env and run the pipeline
+
+```bash
+# from docs/examples/minimal-project
+conda env create -f environment.yml
+conda activate gce-minimal-example
+snakemake -c1 --use-conda
+```
 
 ## Columns
 - `id` (integer): row identifier

@@ -20,3 +20,20 @@
 ## Sharing & Publication
 - Remove direct identifiers; evaluate re-identification risk.
 - Use controlled-access repositories if needed; specify data use agreements.
+
+## Handling decision guide
+
+| Scenario | Action |
+|---|---|
+| Contains direct identifiers (name, SSN, email) | Remove or irreversibly anonymize before sharing |
+| Contains quasi-identifiers (DOB, ZIP, coords) | Aggregate/generalize; assess re-identification risk |
+| Small groups (<10) | Consider suppression or noise addition |
+| Legal/contractual restrictions | Keep restricted; share metadata only |
+
+## PII checklist (quick)
+- Identify direct and indirect identifiers
+- Define lawful basis/consent; document in DMP
+- Minimize data collected; keep only necessary fields
+- Apply anonymization/pseudonymization standards
+- Control access; log who can read the raw data
+- Share safe derivatives plus rich metadata
