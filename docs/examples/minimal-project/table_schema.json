@@ -1,7 +1,0 @@
-{
-  "fields": [
-    {"name": "id", "type": "integer", "constraints": {"minimum": 1}},
-    {"name": "value", "type": "number"}
-  ],
-  "primaryKey": ["id"]
-}

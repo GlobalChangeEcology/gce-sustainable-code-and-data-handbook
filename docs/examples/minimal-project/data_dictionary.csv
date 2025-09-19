@@ -1,3 +1,0 @@
-column_name,data_type,description,allowed_values,example
-id,integer,Row identifier,,1
-value,float,Numeric value to summarize,,2.5
