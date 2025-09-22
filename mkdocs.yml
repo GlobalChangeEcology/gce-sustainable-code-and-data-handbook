@@ -52,6 +52,7 @@ extra_css:
   - css/chips.css
 
 nav:
+  - Home: index.md
   - 1. Foundations & Motivation:
       - GCE Department Context: 01_foundations/00_gce_context.md
       - Introduction: 01_foundations/01_introduction.md
