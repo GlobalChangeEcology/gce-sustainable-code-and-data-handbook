@@ -136,14 +136,14 @@ nav:
       - Daily Toolkit: 06_practical_tools/07_toolkit.md
       - Reflection & Exercises: 06_practical_tools/08_exercises.md
   - 7. Git & GitHub:
-      - Introduction: 08_git_github/01_introduction.md
-      - Why Version Control?: 08_git_github/02_why_version_control.md
-      - What is Git?: 08_git_github/03_what_is_git.md
-      - What is GitHub?: 08_git_github/04_what_is_github.md
-      - Git Basics: 08_git_github/05_git_basics.md
-      - Push to GitHub: 08_git_github/06_push_to_github.md
-      - GitHub Etiquette & Best Practices: 08_git_github/07_github_etiquette.md
-      - Practical Guidance: 08_git_github/99_practical_guidance.md
+      - Introduction: 07_git_github/01_introduction.md
+      - Why Version Control?: 07_git_github/02_why_version_control.md
+      - What is Git?: 07_git_github/03_what_is_git.md
+      - What is GitHub?: 07_git_github/04_what_is_github.md
+      - Git Basics: 07_git_github/05_git_basics.md
+      - Push to GitHub: 07_git_github/06_push_to_github.md
+      - GitHub Etiquette & Best Practices: 07_git_github/07_github_etiquette.md
+      - Practical Guidance: 07_git_github/99_practical_guidance.md
   - References: references.md
   - Glossary: glossary.md
   - Project Checklists: checklists.md

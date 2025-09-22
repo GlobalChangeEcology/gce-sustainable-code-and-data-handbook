@@ -17,4 +17,4 @@ Core concepts include:
 
 Version control transforms code from a personal artifact into a collaborative, trustworthy record (Ram, 2013).
 
-**For a complete, beginner-friendly guide to Git and GitHub—including step-by-step tutorials and best practices—see [Chapter 7: Git & GitHub](../08_git_github/01_introduction.md).**
+**For a complete, beginner-friendly guide to Git and GitHub—including step-by-step tutorials and best practices—see [Chapter 7: Git & GitHub](../07_git_github/01_introduction.md).**
