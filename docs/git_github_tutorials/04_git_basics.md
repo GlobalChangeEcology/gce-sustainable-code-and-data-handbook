@@ -75,3 +75,24 @@ git blame my_script.py
 ```
 
 These commands form the foundation of working with Git.
+
+## Basic Concept Diagram
+
+```mermaid
+flowchart TD
+	style WD fill:#E3F2FD,stroke:#2196F3,stroke-width:2px
+	style STG fill:#FFF9C4,stroke:#FBC02D,stroke-width:2px
+	style LOCAL fill:#C8E6C9,stroke:#388E3C,stroke-width:2px
+	style REMOTE fill:#FFCDD2,stroke:#D32F2F,stroke-width:2px
+
+	WD["📂 Working Directory"]
+	STG["🗃️ Staging Area"]
+	LOCAL["📦 Local Repository"]
+	REMOTE["🌐 Remote Repository"]
+
+	WD -->|git add| STG
+	STG -->|git commit| LOCAL
+	LOCAL -->|git push| REMOTE
+	REMOTE -->|git fetch / git pull| LOCAL
+	LOCAL -->|git checkout| WD
+```

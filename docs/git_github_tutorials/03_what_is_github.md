@@ -21,3 +21,15 @@ GitHub is a web-based platform built on top of Git. It provides tools for:
 | Analogy        | Like saving a file w/ history| Like Google Drive for Git projects |
 
 GitHub makes it easy to collaborate, share, and publish your research code.
+
+## Application in Ecology
+
+Practical ways GitHub powers open ecological research:
+
+| Research Challenge   | How GitHub Helps |
+|----------------------|------------------|
+| Reproducibility      | GitHub stores code, data, and history. Zenodo adds DOIs for citation. |
+| Project continuity   | Version control tracks progress. GitHub Projects coordinate teams. |
+| Collaboration        | Pull requests enable contributions. CI ensures reproducibility. |
+| Peer review          | Issues and Discussions allow transparent feedback and debate. |
+| Publishing           | Write in Markdown/LaTeX. GitHub Pages hosts websites or docs. |

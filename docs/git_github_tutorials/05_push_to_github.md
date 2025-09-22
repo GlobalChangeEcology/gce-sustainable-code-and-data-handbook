@@ -6,7 +6,7 @@
 - Sign up at [github.com](https://github.com/signup) if you don’t have an account.
 - Create a new repository on GitHub.
 
-### Step 2: Connect your local repo to GitHub
+### Step 2: Connect your local repo to the cloud
 ```bash
 git remote add origin https://github.com/yourusername/your-repo.git # Replace with your repo URL
 git branch -M main
