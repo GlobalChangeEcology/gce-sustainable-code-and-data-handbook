@@ -1,6 +1,6 @@
 # Data Organization Checklist
 
-*Print and check off as you organize your project | [Download PDF](data_organization_checklist.pdf)*
+*Print and check off as you organize your project | Keep handy for daily reference*
 
 ## Project Setup ✅
 

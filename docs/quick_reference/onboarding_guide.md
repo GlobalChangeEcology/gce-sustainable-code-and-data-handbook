@@ -1,6 +1,6 @@
 # New Team Member Onboarding Guide
 
-*Get your new researcher up to speed quickly | [Download PDF](onboarding_guide.pdf)*
+*Get your new researcher up to speed quickly | Print for structured 90-day plan*
 
 ## Pre-Arrival Setup ✅
 

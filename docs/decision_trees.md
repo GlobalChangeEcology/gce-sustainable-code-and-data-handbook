@@ -366,4 +366,4 @@ flowchart TD
 
 ---
 
-*These decision trees are living documents. Have a scenario that's not covered? [Contribute your use case](CONTRIBUTING.md) to help improve these guides!*
+*These decision trees are living documents. Have a scenario that's not covered? Open an issue on GitHub to help improve these guides!*

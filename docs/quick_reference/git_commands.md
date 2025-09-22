@@ -1,6 +1,8 @@
 # Git Commands for Researchers - Quick Reference
 
-*Print this page for your desk reference | [Download PDF](git_commands_cheatsheet.pdf)*
+# Git Commands Cheat Sheet
+
+*Essential commands for daily Git usage | Print for quick reference*
 
 ## Essential Daily Commands
 

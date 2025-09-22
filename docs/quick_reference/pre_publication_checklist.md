@@ -1,6 +1,6 @@
 # Pre-Publication Review Checklist
 
-*Complete before submitting your manuscript | [Download PDF](pre_publication_checklist.pdf)*
+*Complete before submitting your manuscript | Print for systematic review process*
 
 ## Data & Code Verification ✅
 
@@ -204,6 +204,6 @@
 
 **Critical Reminder:** This checklist helps ensure scientific integrity and reproducibility. Take time to complete each item thoroughly - your future self and the scientific community will thank you!
 
-**Need help?** See the main handbook chapters on [Publication Workflows](../04_analysis_documentation/03_reproducible_analysis.md) and [Data Sharing](../05_sharing_collaboration/01_sharing_strategies.md).
+**Need help?** See the main handbook chapters on [Reproducible Workflows](../04_reproducible_workflows/01_introduction.md) and [Collaboration & Open Science](../05_collaboration_open_science/01_introduction.md).
 
 *Print this checklist and work through it systematically. Consider having a colleague review critical items for additional quality assurance.*
