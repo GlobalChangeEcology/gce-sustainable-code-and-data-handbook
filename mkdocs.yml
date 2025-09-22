@@ -150,4 +150,9 @@ nav:
   - Practical Guidance: practical_guidance.md
   - Case Studies: case_studies.md
   - Decision Trees: decision_trees.md
+  - Quick Reference:
+      - Git Commands: quick_reference/git_commands.md
+      - Data Organization: quick_reference/data_organization_checklist.md
+      - Pre-Publication Review: quick_reference/pre_publication_checklist.md
+      - Onboarding Guide: quick_reference/onboarding_guide.md
   # Git & GitHub Tutorials removed; content inlined into chapter
