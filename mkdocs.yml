@@ -43,6 +43,7 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight
+  - pymdownx.snippets
 
 extra_javascript:
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js

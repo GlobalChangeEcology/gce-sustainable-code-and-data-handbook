@@ -1,1 +1,1 @@
-{% include "git_github_tutorials/04_git_basics.md" %}
+--8<-- "git_github_tutorials/04_git_basics.md"

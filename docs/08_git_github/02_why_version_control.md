@@ -1,1 +1,1 @@
-{% include "git_github_tutorials/01_why_version_control.md" %}
+--8<-- "git_github_tutorials/01_why_version_control.md"
