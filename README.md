@@ -1,15 +1,23 @@
 
-# Sustainable Code & Data Handbook
+# Sustainable## What's inside
+- Foundations & Motivation
+- Data Management
+- Code Management
+- Reproducible Workflows
+- Collaboration & Open Science
+- Practical Tools & Hands-on Skills
+- Git & GitHub Essentials Data Handbook
 
-Guidance, templates, and checklists for building durable, maintainable code and managing FAIR, reusable data in the natural sciences. Focus areas: code quality, environments, reproducible workflows, dataset documentation, publishing, and sustainability.
+A template handbook for research teams: practical guidance, templates, and checklists for building durable, maintainable code and managing FAIR, reusable data. Focus areas: code quality, environments, reproducible workflows, dataset documentation, publishing, and sustainability.
 
 ## About this Handbook
-This handbook is designed for researchers in the natural sciences who want to improve their data and code management, reproducibility, and collaboration. While many examples are drawn from ecology, biology, and environmental science, the principles and tools described here are broadly applicable across scientific disciplines. The content is intentionally general so that teams in any institution can benefit and adapt the material to their own context.
+This handbook is designed for researchers who want to improve their data and code management, reproducibility, and collaboration. The principles and tools described here are broadly applicable across scientific disciplines. The content is intentionally general so that teams at any institution can benefit and adapt the material to their own context.
 
 ## Why this exists
 - Make code and data easier to maintain, review, and reuse
 - Align with FAIR and good scientific practice
 - Reduce risk and increase reproducibility across projects
+- Provide a template that research groups can customize for their needs
 
 ## What’s inside
 - Foundations & Motivation

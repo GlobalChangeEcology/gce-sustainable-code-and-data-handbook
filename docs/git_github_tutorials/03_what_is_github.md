@@ -22,9 +22,9 @@ GitHub is a web-based platform built on top of Git. It provides tools for:
 
 GitHub makes it easy to collaborate, share, and publish your research code.
 
-## Application in Research
+## Application in Ecology
 
-Practical ways GitHub powers open research across disciplines:
+Practical ways GitHub powers open ecological research:
 
 | Research Challenge   | How GitHub Helps |
 |----------------------|------------------|

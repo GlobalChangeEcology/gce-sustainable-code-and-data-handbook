@@ -1,11 +1,11 @@
-# GCE Department Context: Unique Challenges
+# Research Context: Common Challenges
 
-The Global Change Ecology (GCE) department faces several data and code management challenges that are common in interdisciplinary, field-based research:
+Modern research departments face several data and code management challenges that are common across disciplines and institutions:
 
-- **Field Data Complexity:** Data is often collected in remote locations, sometimes with limited internet or power, leading to inconsistent formats and delayed uploads.
-- **Interdisciplinary Teams:** Projects frequently involve ecologists, data scientists, and external collaborators, each with different workflows and technical backgrounds.
+- **Data Complexity:** Data is often collected across diverse environments and conditions, sometimes with limited connectivity or standardization, leading to inconsistent formats and quality issues.
+- **Interdisciplinary Teams:** Projects frequently involve researchers from different fields, data scientists, and external collaborators, each with different workflows and technical backgrounds.
 - **Long-term Projects:** Many studies span years or decades, requiring careful documentation so that future team members can understand and reproduce past work.
-- **Sensitive Data:** Some datasets include sensitive species locations or personal information, demanding extra care in storage and sharing.
-- **Data Volume and Variety:** GCE research generates everything from small spreadsheets to large sensor datasets, images, and model outputs.
+- **Sensitive Data:** Some datasets include confidential information, personal data, or sensitive locations, demanding extra care in storage and sharing.
+- **Data Volume and Variety:** Research generates everything from small spreadsheets to large sensor datasets, images, simulations, and model outputs.
 
 Addressing these challenges requires robust, flexible, and well-documented data and code management practices—this handbook is designed to help you meet them.

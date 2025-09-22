@@ -1,4 +1,4 @@
-site_name: GCE Sustainable Code & Data Handbook
+site_name: Sustainable Code & Data Handbook
 site_url: https://globalchangeecology.github.io/gce-sustainable-code-and-data-handbook/
 repo_url: https://github.com/GlobalChangeEcology/gce-sustainable-code-and-data-handbook
 repo_name: GlobalChangeEcology/gce-sustainable-code-and-data-handbook
@@ -54,7 +54,7 @@ extra_css:
 nav:
   - Home: index.md
   - 1. Foundations & Motivation:
-      - GCE Department Context: 01_foundations/00_gce_context.md
+      - Research Context: 01_foundations/00_gce_context.md
       - Introduction: 01_foundations/01_introduction.md
       - Why This Matters: 01_foundations/02_why_this_matters.md
       - Reproducibility Crisis: 01_foundations/03_reproducibility_crisis.md
