@@ -51,14 +51,99 @@ extra_css:
   - css/chips.css
 
 nav:
-  - 1. Foundations & Motivation: 01_foundations.md
-  - 2. Data Management: 02_data_management.md
-  - 3. Code Management: 03_code_management.md
-  - 4. Reproducible Workflows: 04_reproducible_workflows.md
-  - 5. Collaboration & Open Science: 05_collaboration_open_science.md
-  - 6. Practical Tools & Hands-on Skills: 06_practical_tools.md
-  - 7. Case Studies & Applications: 07_case_studies.md
+  - 1. Foundations & Motivation:
+      - GCE Department Context: 01_foundations/00_gce_context.md
+      - Introduction: 01_foundations/01_introduction.md
+      - Why This Matters: 01_foundations/02_why_this_matters.md
+      - Reproducibility Crisis: 01_foundations/03_reproducibility_crisis.md
+      - Key Concepts: 01_foundations/04_key_concepts.md
+      - FAIR Principles: 01_foundations/05_fair_principles.md
+      - Common Pitfalls: 01_foundations/06_pitfalls.md
+      - Positive Vision: 01_foundations/07_positive_vision.md
+      - Cross-Disciplinary Perspectives: 01_foundations/08_cross_disciplinary.md
+      - Reflection & Exercises: 01_foundations/09_exercises.md
+      - Looking Ahead: 01_foundations/10_looking_ahead.md
+      - Learning Outcomes: 01_foundations/11_learning_outcomes.md
+      - References: 01_foundations/12_references.md
+  - 2. Data Management:
+      - Introduction: 02_data_management/01_introduction.md
+      - Data Lifecycle: 02_data_management/02_lifecycle.md
+      - Organization & Naming: 02_data_management/03_organization.md
+      - Metadata & Documentation: 02_data_management/04_metadata.md
+      - Data Cleaning: 02_data_management/05_cleaning.md
+      - Data Formats: 02_data_management/06_formats.md
+      - Storage & Preservation: 02_data_management/07_storage.md
+      - Sharing & Licensing: 02_data_management/08_sharing.md
+      - Ethics & Legal: 02_data_management/09_ethics.md
+      - Exercises: 02_data_management/10_exercises.md
+      - Looking Ahead: 02_data_management/11_looking_ahead.md
+      - References: 02_data_management/12_references.md
+  - 3. Code Management:
+      - Style Guides: 03_code_management/01_style_guides.md
+      - Code Review: 03_code_management/02_code_review.md
+      - Notebooks to Scripts: 03_code_management/03_notebooks_to_scripts.md
+      - Testing Examples: 03_code_management/04_testing_examples.md
+      - Continuous Integration: 03_code_management/05_ci_example.md
+      - Introduction: 03_code_management/06_intro.md
+      - Principles: 03_code_management/07_principles.md
+      - Documentation: 03_code_management/08_documentation.md
+      - Notebooks vs Scripts: 03_code_management/09_notebooks_vs_scripts.md
+      - Version Control: 03_code_management/10_version_control.md
+      - Automation & Workflow: 03_code_management/11_automation.md
+      - Testing & CI: 03_code_management/12_testing_ci.md
+  - 4. Reproducible Workflows:
+      - Introduction: 04_reproducible_workflows/01_introduction.md
+      - Computational Environments: 04_reproducible_workflows/02_environments.md
+      - Dependency Management: 04_reproducible_workflows/03_dependencies.md
+      - Containers: 04_reproducible_workflows/04_containers.md
+      - Workflow Management: 04_reproducible_workflows/05_workflow_managers.md
+      - Literate & Reproducible Reporting: 04_reproducible_workflows/06_reporting.md
+      - Best Practices: 04_reproducible_workflows/07_best_practices.md
+      - Reflection & Exercises: 04_reproducible_workflows/08_exercises.md
+      - Looking Ahead: 04_reproducible_workflows/09_looking_ahead.md
+      - Learning Outcomes: 04_reproducible_workflows/10_learning_outcomes.md
+      - References: 04_reproducible_workflows/11_references.md
+  - 5. Collaboration & Open Science:
+      - Collaboration Tools Overview: 05_collaboration_open_science/00_tools_overview.md
+      - Open Science Initiatives: 05_collaboration_open_science/00_open_science_initiatives.md
+      - Licensing Decision Tree: 05_collaboration_open_science/00_licensing_decision_tree.md
+      - Barriers & Solutions: 05_collaboration_open_science/00_barriers_solutions.md
+      - Introduction: 05_collaboration_open_science/01_introduction.md
+      - Best Practices for Collaboration: 05_collaboration_open_science/02_best_practices.md
+      - Principles of Open Science: 05_collaboration_open_science/03_principles_open_science.md
+      - Licensing & Intellectual Property: 05_collaboration_open_science/04_licensing_ip.md
+      - Publishing Reproducible Research: 05_collaboration_open_science/05_reproducible_publishing.md
+      - Incentives & Barriers: 05_collaboration_open_science/06_incentives_barriers.md
+      - Reflection & Exercises: 05_collaboration_open_science/08_exercises.md
+      - Looking Ahead: 05_collaboration_open_science/09_looking_ahead.md
+      - Learning Outcomes: 05_collaboration_open_science/10_learning_outcomes.md
+      - References: 05_collaboration_open_science/11_references.md
+  - 6. Practical Tools & Hands-on Skills:
+      - Shell Command Cheatsheet: 06_practical_tools/00_shell_cheatsheet.md
+      - Project Template Walkthrough: 06_practical_tools/00_project_template_walkthrough.md
+      - DVC/Git LFS Examples: 06_practical_tools/00_dvc_gitlfs.md
+      - SLURM Example: 06_practical_tools/00_slurm_example.md
+      - Tool Selection Table: 06_practical_tools/00_tool_selection.md
+      - Introduction: 06_practical_tools/01_introduction.md
+      - Command-Line Essentials: 06_practical_tools/02_command_line.md
+      - Project Templates & Compendia: 06_practical_tools/03_project_templates.md
+      - Data Version Control: 06_practical_tools/04_data_versioning.md
+      - Environment & Dependency Tools: 06_practical_tools/05_environments.md
+      - Cloud & HPC: 06_practical_tools/06_hpc_cloud.md
+      - Daily Toolkit: 06_practical_tools/07_toolkit.md
+      - Reflection & Exercises: 06_practical_tools/08_exercises.md
+  - 7. Git & GitHub:
+      - Introduction: 08_git_github/01_introduction.md
+      - Why Version Control?: 08_git_github/02_why_version_control.md
+      - What is Git?: 08_git_github/03_what_is_git.md
+      - What is GitHub?: 08_git_github/04_what_is_github.md
+      - Git Basics: 08_git_github/05_git_basics.md
+      - Push to GitHub: 08_git_github/06_push_to_github.md
+      - GitHub Etiquette & Best Practices: 08_git_github/07_github_etiquette.md
+      - Practical Guidance: 08_git_github/99_practical_guidance.md
   - References: references.md
+  - Glossary: glossary.md
+  - Project Checklists: checklists.md
   - Practical Guidance: practical_guidance.md
   - Git & GitHub Tutorials:
       - Why Version Control?: git_github_tutorials/01_why_version_control.md

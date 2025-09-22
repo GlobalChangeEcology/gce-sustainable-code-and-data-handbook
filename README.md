@@ -18,7 +18,7 @@ This handbook is designed for researchers in the natural sciences who want to im
 - Reproducible Workflows
 - Collaboration & Open Science
 - Practical Tools & Hands-on Skills
-- Case Studies & Applications
+ 
 
 ## How to use
 - Start new projects with a clear, consistent structure
@@ -35,7 +35,7 @@ Contributions are welcome via Pull Requests. Please read `CONTRIBUTING.md` and f
 This handbook is designed to be flexible and adaptable for different research teams and scientific disciplines. To make it your own:
 
 - **Customize templates and folder structures:** Adjust project templates, data dictionaries, and documentation examples to match your team’s workflows or field-specific requirements.
-- **Add discipline-specific examples:** Insert code snippets, case studies, or best practices relevant to your area of research (e.g., genomics, ecology, social sciences).
+- **Add discipline-specific examples:** Insert code snippets or best practices relevant to your area of research (e.g., genomics, ecology, social sciences).
 - **Expand or localize content:** Translate sections, add new chapters, or include local policies and resources as needed.
 - **Contribute improvements:** Suggest changes or submit pull requests to help make the handbook better for everyone.
 
