@@ -1,0 +1,11 @@
+{
+  "R": {
+    "Version": "4.3.0"
+  },
+  "Packages": {
+    "remotes": {
+      "Source": "CRAN",
+      "Version": "2.4.2"
+    }
+  }
+}

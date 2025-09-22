@@ -59,3 +59,11 @@ nav:
   - 6. Practical Tools & Hands-on Skills: 06_practical_tools.md
   - 7. Case Studies & Applications: 07_case_studies.md
   - References: references.md
+  - Practical Guidance: practical_guidance.md
+  - Git & GitHub Tutorials:
+      - Why Version Control?: git_github_tutorials/01_why_version_control.md
+      - What is Git?: git_github_tutorials/02_what_is_git.md
+      - What is GitHub?: git_github_tutorials/03_what_is_github.md
+      - Git Basics: git_github_tutorials/04_git_basics.md
+      - Push to GitHub: git_github_tutorials/05_push_to_github.md
+      - GitHub Etiquette & Best Practices: git_github_tutorials/06_github_etiquette.md

@@ -1,0 +1,8 @@
+# Ignore data outputs and environment files
+*.pyc
+__pycache__/
+.Rhistory
+.RData
+.env
+.DS_Store
+data/
